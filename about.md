@@ -3,6 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+## Podcast
+
+TBD
+## Danubius
+
 Danubius IT Solutions is a software engineering company with 10+ years experience in end-to-end developments in [multiple domains and different markets](https://danubiusinfo.com/domains/).
 
 ### Our approach

@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Danubius IT Solutions
+name: Techergők Podcast
 
 # Short bio or description (displayed in the header)
-description: Tech blog
+description: by Danubius Informatika
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://danubius.io/images/danubius_logo.png
+avatar: https://danubius.io/images/techergok.jpg
 
 #
 # Flags below are optional
@@ -22,8 +22,8 @@ footer-links:
   facebook: danubiusinfo
   flickr:
   github:
-  instagram:
-  linkedin:
+  instagram: danubiusinfo
+  linkedin: danubius-informatika
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://danubius.io
+url: https://techergok.danubius.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

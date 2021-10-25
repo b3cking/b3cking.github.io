@@ -1,1 +1,2 @@
-Danubius Informatika Tech Blog & Podcast - early bird edition
+Techergők by Danubius Informatika
+podcast
