@@ -25,11 +25,10 @@ Ha épp a te kedvenced hiányzik, jelezd nekünk, kérlek!
 
 A [Danubius Informatika](https://danubiusinfo.hu/) egy több mint tíz éves tapasztalattal rendelkező, szoftverfejlesztéssel, end-to-end megoldásokkal, mérnöki kialakításokkal folgalkozó, összetartó gárda.
 
+![_config.yml]({{ site.baseurl }}/images/techteam.jpg)
 ## Ügyfeleinkről
 
 Ügyfeleink elsősorban a pénzügyi szektor képviselői – több hazai bank és biztosító tisztelt meg bennünket hosszú távú bizalmával, de rajtuk kívül az oktatási szektorban és különböző startup területeken is otthonosan mozgunk. Szolgáltatáspalettánk a stratégiai tanácsadástól, eseti konzultációtól az oktatásokon és üzemeltetés-támogatáson át a komplett, önálló fejlesztési projektek megvalósításáig terjed. 60 fős szakértői csapatunkat egy szélesebb, minősített partneri gárda egészíti ki, akikkel szoros együttműködésben jelenünk meg és dolgozunk a hazai és külföldi piacon egyaránt.
-
-![_config.yml]({{ site.baseurl }}/images/techteam.jpg)
 
 ## Szakértelmünk
 
