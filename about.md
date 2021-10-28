@@ -11,7 +11,7 @@ A Techergők a Danubius Informatika technológiai podcastje, amelyben vendégein
 Elérhetőek vagyunk a legnagyobb podcast platformokon, például az alábbiakon:
 
 * [Anchor](https://anchor.fm/techergok)
-* [**Apple Podcast**](https://podcasts.apple.com/hu/podcast/techerg%C5%91k/id1591944141)
+* [**Apple Podcasts**](https://podcasts.apple.com/hu/podcast/techerg%C5%91k/id1591944141)
 * [Android](https://subscribeonandroid.com/anchor.fm/s/712c26b4/podcast/rss)
 * [Breaker](https://www.breaker.audio/techergok)
 * [Castbox](https://castbox.fm/channel/id4638410)
