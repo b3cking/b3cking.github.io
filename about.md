@@ -10,15 +10,15 @@ A Techergők a Danubius Informatika technológiai podcastje, amelyben vendégein
 
 Elérhetőek vagyunk a legnagyobb podcast platformokon, például az alábbiakon:
 
- * [Anchor](https://anchor.fm/techergok)
- * [**Apple Podcast**](https://podcasts.apple.com/hu/podcast/techerg%C5%91k/id1591944141)
- * [Android](https://subscribeonandroid.com/anchor.fm/s/712c26b4/podcast/rss)
- * [Breaker](https://www.breaker.audio/techergok)
- * [Castbox](https://castbox.fm/channel/id4638410)
- * Google Podcasts (hamarosan)
- * [Pocket Casts](https://pca.st/4l5k03n6)
- * [**Spotify**](https://open.spotify.com/show/75zGwPq9rxpR8jER6m0R5f)
- * [Stitcher](https://www.stitcher.com/show/techergok)
+* [Anchor](https://anchor.fm/techergok)
+* [**Apple Podcast**](https://podcasts.apple.com/hu/podcast/techerg%C5%91k/id1591944141)
+* [Android](https://subscribeonandroid.com/anchor.fm/s/712c26b4/podcast/rss)
+* [Breaker](https://www.breaker.audio/techergok)
+* [Castbox](https://castbox.fm/channel/id4638410)
+* [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83MTJjMjZiNC9wb2RjYXN0L3Jzcw)
+* [Pocket Casts](https://pca.st/4l5k03n6)
+* [**Spotify**](https://open.spotify.com/show/75zGwPq9rxpR8jER6m0R5f)
+* [Stitcher](https://www.stitcher.com/show/techergok)
 
 Ha épp a te kedvenced hiányzik, jelezd nekünk, kérlek!
 ## Akik a podcast mögött állnak
