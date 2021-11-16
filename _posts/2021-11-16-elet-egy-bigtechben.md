@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Istvan Kis
-title: Élet a BigTechben - Erdődy-Nagy Zsombor
+title: Élet egy BigTech-ben – Erdődy-Nagy Zsombor
 ---
 Hamarosan jövünk!
 
