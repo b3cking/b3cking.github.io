@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  <link rel="apple-touch-icon" href="./images/danubius_logo.png">
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135039437-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-135039437-3');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135039437-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-135039437-3');
+  </script>
 
-        <!-- Facebook Pixel Code -->
-      <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '136077273776225');
-        fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=136077273776225&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Facebook Pixel Code -->
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '136077273776225');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=136077273776225&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
-  </head>
+</head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar">
+          <figure>
+            <img alt="Danubius logo for site avatar" src="{{ site.avatar }}" />
+          </figure>
+        </a>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">podcast by <a href="https://danubiusinfo.hu/">Danubius Informatika</a></p>
-          </div>
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p class="site-description">podcast by <a href="https://danubiusinfo.hu/">Danubius Informatika</a></p>
+        </div>
 
-          <nav>
-            <a href="https://danubius.io/">Techblog</a><img src="{{ site.baseurl }}/images/uk2.png" width="25px" style="margin-right: 15px">
-            <a href="{{ site.baseurl }}/">Podcast</a><img src="{{ site.baseurl }}/images/hu2.png" width="25px" style="margin-right: 15px">
-            <a href="{{ site.baseurl }}/about">Rólunk</a>
-          </nav>
-        </header>
-      </div>
+        <nav>
+          <a href="https://danubius.io/">Techblog</a>
+          <img src="{{ site.baseurl }}/images/uk2.png" width="25px" style="margin-right: 15px"
+            alt="United Kingdom flag">
+          <a href="{{ site.baseurl }}/">Podcast</a><img src="{{ site.baseurl }}/images/hu2.png" width="25px"
+            style="margin-right: 15px" alt="Hungary flag">
+          <a href="{{ site.baseurl }}/about">Rólunk</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+  {% include analytics.html %}
+</body>
 
-    {% include analytics.html %}
-  </body>
 </html>
