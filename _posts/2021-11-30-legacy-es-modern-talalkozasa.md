@@ -2,6 +2,7 @@
 layout: post
 author: Peter Balogh / Istvan Kis
 title: Egy projekt élete – a legacy és a modern találkozása
+keywords: Legacy project, Legacy projekt, Modern project, Modern projekt, Legacy és a Modern, Becker Ferenc, Gyetvai Gábor, Tévald Márton, Danubius podcast
 ---
 <iframe src="https://open.spotify.com/embed/episode/6hRsIjXG1PO4pHrkJZuJhO?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
