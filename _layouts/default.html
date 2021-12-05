@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 
 <head>
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -54,7 +54,8 @@
       <header class="masthead clearfix">
         <a href="{{ site.baseurl }}/" class="site-avatar">
           <figure>
-            <img alt="Danubius logo for site avatar" src="{{ site.avatar }}" />
+            <img height="70px" width="70px" alt="Danubius logo for site avatar" aria-label="Danubius logo"
+              src="{{ site.avatar }}" />
           </figure>
         </a>
 
@@ -65,10 +66,10 @@
 
         <nav>
           <a href="https://danubius.io/">Techblog</a>
-          <img src="{{ site.baseurl }}/images/uk2.png" width="25px" style="margin-right: 15px"
+          <img src="{{ site.baseurl }}/images/uk2.png" width="25px" height="25px" style="margin-right: 15px"
             alt="United Kingdom flag">
           <a href="{{ site.baseurl }}/">Podcast</a><img src="{{ site.baseurl }}/images/hu2.png" width="25px"
-            style="margin-right: 15px" alt="Hungary flag">
+            height="25px" style="margin-right: 15px" alt="Hungary flag">
           <a href="{{ site.baseurl }}/about">Rólunk</a>
         </nav>
       </header>
