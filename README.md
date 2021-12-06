@@ -1,2 +1,1 @@
-Techergők by Danubius Informatika
-podcast
+Techergők podcast - by Danubius IT Solutions (Hungarian)
