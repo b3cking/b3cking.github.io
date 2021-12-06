@@ -4,7 +4,8 @@ author: Istvan Kis
 title: Élet egy BigTech-ben – Erdődy-Nagy Zsombor
 keywords: Termékfejlesztés, menedzser, manager, teljesítményértékelés Erdődy-Nagy Zsombor, Danubius podcast
 ---
-<iframe title="Élet egy BigTech-ben - Danubius podcast" src="https://open.spotify.com/embed/episode/1MvMkFXCC8DVci2dvz103n?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<iframe src="https://open.spotify.com/embed/episode/1MvMkFXCC8DVci2dvz103n?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 Vendégünk **Erdődy-Nagy Zsombor**, aki hosszú fejlesztői múlttal rendelkező mérnök informatikus, sok éves menedzseri (engineering manager) tapasztalattal a háta mögött. Épített csapatot a **Skyscanner**-nél, az **Uber**-nél, jelenleg a **Shapr3D**-nél dolgozik Amszterdamban, de végig közel maradt a technológiához.
 
