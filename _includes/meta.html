@@ -23,4 +23,11 @@
 {% if page.title %}
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="twitter:title" content="{{ page.title }}" />
+
+{% if page.image %}
+  <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="{{ site.url }}/images/danubius_logo.png" property="og:image">
+{% endif %}
+
 {% endif %}
