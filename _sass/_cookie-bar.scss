@@ -1,0 +1,25 @@
+.cookie-bar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  bottom: 0;
+  height: 60px;
+  @include mobile {
+    height: 130px;
+  }
+  @include small-mobile {
+    height: 150px;
+  }
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(196, 196, 196);
+  margin: auto;
+  width: 100%;
+  position: fixed;
+  padding: 0 30px;
+  button {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

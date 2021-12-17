@@ -1,0 +1,19 @@
+<div id="cookie-bar" class="cookie-bar">
+    <span>Az oldalon sütiket (cookie-kat) használunk. Az oldal használatával Ön elfogadja a cookie-k használatát.
+        További információért kattintson <a href="/consent">ide</a>.</span>
+    <button onclick="onApproveClick()">OK</button>
+    <script>
+        if (Helper.getCookie('cookieApproved') === 'true') {
+            document.getElementById("cookie-bar").style.display = 'none';
+        } else {
+            document.getElementById("cookie-bar").style.display = 'flex';
+        }
+
+        function onApproveClick() {
+            const oneMonth = 24 * 60 * 60 * 30;
+            const expires = (new Date(Date.now() + oneMonth * 1000)).toUTCString();
+            document.cookie = `cookieApproved=true;expires=${expires};path=/;domain=danubius.io`;
+            document.getElementById("cookie-bar").style.display = 'none';
+        }
+    </script>
+</div>
