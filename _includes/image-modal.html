@@ -1,0 +1,11 @@
+<div id="imageModal" class="image-modal">
+    <span class="image-modal__close" onclick="onModalClose()">&times;</span>
+    <img class="image-modal__content" id="modalImage">
+    <div id="caption"></div>
+</div>
+<script>
+    const modal = document.getElementById("imageModal");
+    function onModalClose() {
+        modal.style.display = "none";
+    }
+</script>

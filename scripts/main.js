@@ -8,3 +8,13 @@ const Helper = (function () {
     getCookie,
   };
 })();
+
+function onClickImg(evt) {
+  const img = evt.target;
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImage");
+  const captionText = document.getElementById("caption");
+  modal.style.display = "flex";
+  modalImg.src = img.src;
+  captionText.innerHTML = img.alt;
+}
