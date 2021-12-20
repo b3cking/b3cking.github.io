@@ -16,10 +16,11 @@
   
     &__content {
       display: block;
-      width: 80%;
-      max-width: 700px;
+      max-width: 90vw;
+      max-height: calc(100vh - 100px - 50px);
       @include mobile {
         width: 100%;
+        max-width: 100%;
       }
     }
   
