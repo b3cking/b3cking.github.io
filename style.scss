@@ -7,6 +7,8 @@
 
 @import "reset";
 @import "variables";
+@import "mixins";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -305,4 +307,7 @@ button {
 @import "highlights";
 @import "svg-icons";
 @import "cookie-bar";
+@import "image-modal";
+@import "image";
+
 

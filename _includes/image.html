@@ -1,3 +1,8 @@
-<figure>
+<figure class="image-figure">
+    {% if include.notOpenOnClick == "true" %}
     <img src="{{ include.src }}" alt="{{ include.alt }}" />
+    {% else %}
+    <img class="image-figure__openable-image" src="{{ include.src }}" alt="{{ include.alt }}"
+        onclick="onClickImg(event)" />
+    {% endif %}
 </figure>
