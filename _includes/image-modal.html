@@ -1,7 +1,8 @@
-<div id="imageModal" class="image-modal">
-    <span class="image-modal__close" onclick="onModalClose()">&times;</span>
-    <img class="image-modal__content" id="modalImage">
-    <div id="caption"></div>
+<div id="imageModal" onclick="onModalClose()" class="image-modal">
+    <figure>
+        <img onclick="event.stopPropagation()" class="image-modal__content" id="modalImage">
+        <figcaption id="caption"></figcaption>
+    </figure>
 </div>
 <script>
     const modal = document.getElementById("imageModal");
