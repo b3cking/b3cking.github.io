@@ -42,4 +42,4 @@ Tanácsadási szolgáltatásaink keretében több ügyfelünket segítettük kö
 
 ## Kapcsolat
 
-Ha úgy gondolod, hogy cégednek, projektednek, csapatodnak technológiai segítségre vagy támogatásra van szüksége, keress minket bátran a [hello@danubusinfo.com](mailto:hello@danubusinfo.com) e-mail címen, vagy olvasd el a [weboldalunkat](https://danubiusinfo.hu/), tekintsd meg az angol nyelvű [tech blogunkat](https://danubius.io/), vagy hallgasd a [podcastünket](https://techergok.danubius.io/)!
+Ha úgy gondolod, hogy cégednek, projektednek, csapatodnak technológiai segítségre vagy támogatásra van szüksége, keress minket bátran a [hello@danubiusinfo.com](mailto:hello@danubiusinfo.com) e-mail címen, vagy olvasd el a [weboldalunkat](https://danubiusinfo.hu/), tekintsd meg az angol nyelvű [tech blogunkat](https://danubius.io/), vagy hallgasd a [podcastünket](https://techergok.danubius.io/)!
